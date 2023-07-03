@@ -4,7 +4,7 @@
 
 ## Açıklamalar
 
-- Bu Proje ile login sayfası ile home sayfasına yönlendirme, Sidebar'dan student'in seçilmesi ile API'den çekilen öğrencilerin belirli bir pagination çerçevesinde sergilenmesi, API verilerini CRUD işlemleri ile düzenleme, silme, ekleme yapılabilmesini kapsamaktadır.
+- Bu Proje; login sayfası ile home sayfasına yönlendirme, Sidebar'dan student sekmesi ile API'den çekilen öğrencilerin belirli bir pagination çerçevesinde sergileme, API verilerini CRUD işlemleri ile düzenleme, silme, ekleme yapılabilmesini kapsamaktadır.
 
 ## Projenin Oluşturulmasında izlenilen Adımlar
 
