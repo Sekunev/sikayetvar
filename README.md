@@ -1,4 +1,4 @@
-# Rast Mobile App
+# Şikayetvar App
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev-sikayetvar.netlify.app/)
 
