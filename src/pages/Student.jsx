@@ -109,11 +109,11 @@ function Student() {
     setEditOpen(true);
 
     //! Form alanlarına satır verilerini atama
-    setValue("name", row.firstName);
-    setValue("email", row.email);
-    setValue("Phone", row.phone);
-    setValue("website", row.domain);
-    setValue("companyName", row.companyName);
+    setValue("name", row?.firstName);
+    setValue("email", row?.email);
+    setValue("Phone", row?.phone);
+    setValue("website", row?.domain);
+    setValue("companyName", row?.companyName);
   };
   //!  satır aralarına Boşluk
   const getRowSpacing = React.useCallback((params) => {
