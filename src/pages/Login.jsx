@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Ripple, Input, initTE } from "tw-elements";
-initTE({ Ripple, Input });
 
 const Login = () => {
+  initTE({ Ripple, Input });
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
