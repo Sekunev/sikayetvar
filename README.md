@@ -1,6 +1,6 @@
 # Rast Mobile App
 
-### Check The Live Website ➡️ [Live Website](https://rastmobileapp.netlify.app/)
+### Check The Live Website ➡️ [Live Website](https://sekunev-sikayetvar.netlify.app/)
 
 ## Açıklamalar
 
