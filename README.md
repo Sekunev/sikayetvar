@@ -19,7 +19,7 @@
 
 ### Visualization of the Website
 
-![image](https://github.com/Sekunev/dataGridApp/blob/main/src/assest/Projectimage.png)
+![image](https://github.com/Sekunev/sikayetvar/blob/main/src/assest/AnimationProject.gif)
 
 ## Project Skeleton
 
