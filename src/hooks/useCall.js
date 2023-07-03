@@ -36,13 +36,11 @@ const useCall = () => {
 
       if (response.status === 200) {
         // Silme işlemi başarılı
-        // Rows listesinden silinen satırı kaldırabilirsiniz
-        // Örneğin:
+
         const updatedRows = users.filter((row) => row.id !== id);
         setUsers(updatedRows);
       } else {
         // Silme işlemi başarısız
-        // Hata mesajını gösterebilir veya uygun bir işlem yapabilirsiniz
       }
     } catch (error) {
       // Hata durumunda yapılacak işlemler
@@ -59,15 +57,11 @@ const useCall = () => {
 
       if (response.status === 200) {
         // Kullanıcı başarıyla eklendi
-        // İşlem sonrası yapılacak işlemleri buraya ekleyebilirsiniz
+
         console.log("Kullanıcı başarıyla eklendi:", response.data);
         const updatedUsers = [response.data].concat(users);
         setUsers(updatedUsers);
-
-        // getUsers();
       } else {
-        // Kullanıcı ekleme işlemi başarısız oldu
-        // Hata mesajını gösterebilir veya uygun bir işlem yapabilirsiniz
         console.log("Kullanıcı ekleme işlemi başarısız oldu");
       }
     } catch (error) {

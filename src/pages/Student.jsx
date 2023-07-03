@@ -24,12 +24,11 @@ function Student() {
   //! Colon Field'lerini atama
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
-    // { field: "act1", headerName: "", width: 300 },
     {
       field: "avatar",
       headerName: "",
       width: 50,
-      // renderCell: (params) => <Avatar src={params.row.avatar} alt="Avatar" />,
+
       renderCell: (params) => (
         <AvatarWithLoader src={params.row.avatar} alt="Avatar" />
       ),
@@ -45,11 +44,8 @@ function Student() {
     {
       field: "domain",
       headerName: "Website",
-      // description: "This column has a value getter and is not sortable.",
       sortable: false,
       width: 160,
-      // valueGetter: (params) =>
-      //   `${params.row.firstName || ""} ${params.row.lastName || ""}`,
     },
     {
       field: "companyName",
@@ -80,6 +76,7 @@ function Student() {
     },
   ];
   //!  satır verilerini atama
+
   const rows = users.map((user) => ({
     id: user.id,
     avatar: user.image,

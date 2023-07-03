@@ -18,7 +18,7 @@ const EditModal = ({
     e.preventDefault();
     const { name, value } = e.target;
     selectedRow && setSelectedRow({ ...selectedRow, [name]: value });
-    setNewRow({ ...newRow, [name]: value });
+    newRow && setNewRow({ [name]: value });
   };
 
   //!  Submit ile PUT mu POST'mu yapılacak.
